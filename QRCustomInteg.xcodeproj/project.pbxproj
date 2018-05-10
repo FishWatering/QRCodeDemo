@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DDB8782307AE19EDB30BB3 /* libPods-QRCustomInteg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0421446C121FE5432580B92 /* libPods-QRCustomInteg.a */; };
+		EEE1C51520A33B97002E76DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C51420A33B97002E76DE /* AppDelegate.m */; };
+		EEE1C51820A33B97002E76DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C51720A33B97002E76DE /* ViewController.m */; };
+		EEE1C51B20A33B97002E76DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE1C51920A33B97002E76DE /* Main.storyboard */; };
+		EEE1C51D20A33B99002E76DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE1C51C20A33B99002E76DE /* Assets.xcassets */; };
+		EEE1C52020A33B99002E76DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE1C51E20A33B99002E76DE /* LaunchScreen.storyboard */; };
+		EEE1C52320A33B99002E76DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C52220A33B99002E76DE /* main.m */; };
+		EEE1C52D20A33B9A002E76DE /* QRCustomIntegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C52C20A33B9A002E76DE /* QRCustomIntegTests.m */; };
+		EEE1C53820A33B9A002E76DE /* QRCustomIntegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C53720A33B9A002E76DE /* QRCustomIntegUITests.m */; };
+		EEE1C54720A33BC3002E76DE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C54620A33BC3002E76DE /* DetailViewController.m */; };
+		EEE1C54C20A33E10002E76DE /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C54B20A33E10002E76DE /* UIColor+CustomColor.m */; };
+		EEE1C55020A4604B002E76DE /* QRCodeCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C54F20A4604B002E76DE /* QRCodeCustom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE1C52920A33B9A002E76DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE1C50820A33B97002E76DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE1C50F20A33B97002E76DE;
+			remoteInfo = QRCustomInteg;
+		};
+		EEE1C53420A33B9A002E76DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE1C50820A33B97002E76DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE1C50F20A33B97002E76DE;
+			remoteInfo = QRCustomInteg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EA225864D794CDBFAA7E19 /* Pods-QRCustomInteg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCustomInteg.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCustomInteg/Pods-QRCustomInteg.debug.xcconfig"; sourceTree = "<group>"; };
+		A0421446C121FE5432580B92 /* libPods-QRCustomInteg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCustomInteg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED79D7E6B7A3E7B0C7A6C392 /* Pods-QRCustomInteg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCustomInteg.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCustomInteg/Pods-QRCustomInteg.release.xcconfig"; sourceTree = "<group>"; };
+		EEE1C51020A33B97002E76DE /* QRCustomInteg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCustomInteg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE1C51320A33B97002E76DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE1C51420A33B97002E76DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEE1C51620A33B97002E76DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEE1C51720A33B97002E76DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEE1C51A20A33B97002E76DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE1C51C20A33B99002E76DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE1C51F20A33B99002E76DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE1C52120A33B99002E76DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE1C52220A33B99002E76DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE1C52820A33B9A002E76DE /* QRCustomIntegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCustomIntegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE1C52C20A33B9A002E76DE /* QRCustomIntegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCustomIntegTests.m; sourceTree = "<group>"; };
+		EEE1C52E20A33B9A002E76DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE1C53320A33B9A002E76DE /* QRCustomIntegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCustomIntegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE1C53720A33B9A002E76DE /* QRCustomIntegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCustomIntegUITests.m; sourceTree = "<group>"; };
+		EEE1C53920A33B9A002E76DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE1C54520A33BC3002E76DE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EEE1C54620A33BC3002E76DE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EEE1C54A20A33E10002E76DE /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		EEE1C54B20A33E10002E76DE /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		EEE1C54E20A4604B002E76DE /* QRCodeCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeCustom.h; sourceTree = "<group>"; };
+		EEE1C54F20A4604B002E76DE /* QRCodeCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeCustom.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE1C50D20A33B97002E76DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DDB8782307AE19EDB30BB3 /* libPods-QRCustomInteg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C52520A33B9A002E76DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C53020A33B9A002E76DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA3B8BE0E7CCCDECB47989A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0421446C121FE5432580B92 /* libPods-QRCustomInteg.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A43AD217B8C252A0EB9BE163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17EA225864D794CDBFAA7E19 /* Pods-QRCustomInteg.debug.xcconfig */,
+				ED79D7E6B7A3E7B0C7A6C392 /* Pods-QRCustomInteg.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEE1C50720A33B97002E76DE = {
+			isa = PBXGroup;
+			children = (
+				EEE1C51220A33B97002E76DE /* QRCustomInteg */,
+				EEE1C52B20A33B9A002E76DE /* QRCustomIntegTests */,
+				EEE1C53620A33B9A002E76DE /* QRCustomIntegUITests */,
+				EEE1C51120A33B97002E76DE /* Products */,
+				A43AD217B8C252A0EB9BE163 /* Pods */,
+				2DA3B8BE0E7CCCDECB47989A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE1C51120A33B97002E76DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C51020A33B97002E76DE /* QRCustomInteg.app */,
+				EEE1C52820A33B9A002E76DE /* QRCustomIntegTests.xctest */,
+				EEE1C53320A33B9A002E76DE /* QRCustomIntegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE1C51220A33B97002E76DE /* QRCustomInteg */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C54D20A43A1C002E76DE /* ScanQR */,
+				EEE1C54920A33DE6002E76DE /* Category */,
+				EEE1C54820A33BCA002E76DE /* VC */,
+				EEE1C51320A33B97002E76DE /* AppDelegate.h */,
+				EEE1C51420A33B97002E76DE /* AppDelegate.m */,
+				EEE1C51920A33B97002E76DE /* Main.storyboard */,
+				EEE1C51C20A33B99002E76DE /* Assets.xcassets */,
+				EEE1C51E20A33B99002E76DE /* LaunchScreen.storyboard */,
+				EEE1C52120A33B99002E76DE /* Info.plist */,
+				EEE1C52220A33B99002E76DE /* main.m */,
+			);
+			path = QRCustomInteg;
+			sourceTree = "<group>";
+		};
+		EEE1C52B20A33B9A002E76DE /* QRCustomIntegTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C52C20A33B9A002E76DE /* QRCustomIntegTests.m */,
+				EEE1C52E20A33B9A002E76DE /* Info.plist */,
+			);
+			path = QRCustomIntegTests;
+			sourceTree = "<group>";
+		};
+		EEE1C53620A33B9A002E76DE /* QRCustomIntegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C53720A33B9A002E76DE /* QRCustomIntegUITests.m */,
+				EEE1C53920A33B9A002E76DE /* Info.plist */,
+			);
+			path = QRCustomIntegUITests;
+			sourceTree = "<group>";
+		};
+		EEE1C54820A33BCA002E76DE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C51620A33B97002E76DE /* ViewController.h */,
+				EEE1C51720A33B97002E76DE /* ViewController.m */,
+				EEE1C54520A33BC3002E76DE /* DetailViewController.h */,
+				EEE1C54620A33BC3002E76DE /* DetailViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EEE1C54920A33DE6002E76DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C54A20A33E10002E76DE /* UIColor+CustomColor.h */,
+				EEE1C54B20A33E10002E76DE /* UIColor+CustomColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EEE1C54D20A43A1C002E76DE /* ScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C54E20A4604B002E76DE /* QRCodeCustom.h */,
+				EEE1C54F20A4604B002E76DE /* QRCodeCustom.m */,
+			);
+			path = ScanQR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE1C50F20A33B97002E76DE /* QRCustomInteg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE1C53C20A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomInteg" */;
+			buildPhases = (
+				854BC00AEA5AD926AC3A70FB /* [CP] Check Pods Manifest.lock */,
+				EEE1C50C20A33B97002E76DE /* Sources */,
+				EEE1C50D20A33B97002E76DE /* Frameworks */,
+				EEE1C50E20A33B97002E76DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCustomInteg;
+			productName = QRCustomInteg;
+			productReference = EEE1C51020A33B97002E76DE /* QRCustomInteg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE1C52720A33B9A002E76DE /* QRCustomIntegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE1C53F20A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomIntegTests" */;
+			buildPhases = (
+				EEE1C52420A33B9A002E76DE /* Sources */,
+				EEE1C52520A33B9A002E76DE /* Frameworks */,
+				EEE1C52620A33B9A002E76DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE1C52A20A33B9A002E76DE /* PBXTargetDependency */,
+			);
+			name = QRCustomIntegTests;
+			productName = QRCustomIntegTests;
+			productReference = EEE1C52820A33B9A002E76DE /* QRCustomIntegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE1C53220A33B9A002E76DE /* QRCustomIntegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE1C54220A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomIntegUITests" */;
+			buildPhases = (
+				EEE1C52F20A33B9A002E76DE /* Sources */,
+				EEE1C53020A33B9A002E76DE /* Frameworks */,
+				EEE1C53120A33B9A002E76DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE1C53520A33B9A002E76DE /* PBXTargetDependency */,
+			);
+			name = QRCustomIntegUITests;
+			productName = QRCustomIntegUITests;
+			productReference = EEE1C53320A33B9A002E76DE /* QRCustomIntegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE1C50820A33B97002E76DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李萍";
+				TargetAttributes = {
+					EEE1C50F20A33B97002E76DE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EEE1C52720A33B9A002E76DE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EEE1C50F20A33B97002E76DE;
+					};
+					EEE1C53220A33B9A002E76DE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EEE1C50F20A33B97002E76DE;
+					};
+				};
+			};
+			buildConfigurationList = EEE1C50B20A33B97002E76DE /* Build configuration list for PBXProject "QRCustomInteg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE1C50720A33B97002E76DE;
+			productRefGroup = EEE1C51120A33B97002E76DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE1C50F20A33B97002E76DE /* QRCustomInteg */,
+				EEE1C52720A33B9A002E76DE /* QRCustomIntegTests */,
+				EEE1C53220A33B9A002E76DE /* QRCustomIntegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE1C50E20A33B97002E76DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE1C52020A33B99002E76DE /* LaunchScreen.storyboard in Resources */,
+				EEE1C51D20A33B99002E76DE /* Assets.xcassets in Resources */,
+				EEE1C51B20A33B97002E76DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C52620A33B9A002E76DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C53120A33B9A002E76DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		854BC00AEA5AD926AC3A70FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCustomInteg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE1C50C20A33B97002E76DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE1C54C20A33E10002E76DE /* UIColor+CustomColor.m in Sources */,
+				EEE1C51820A33B97002E76DE /* ViewController.m in Sources */,
+				EEE1C52320A33B99002E76DE /* main.m in Sources */,
+				EEE1C51520A33B97002E76DE /* AppDelegate.m in Sources */,
+				EEE1C55020A4604B002E76DE /* QRCodeCustom.m in Sources */,
+				EEE1C54720A33BC3002E76DE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C52420A33B9A002E76DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE1C52D20A33B9A002E76DE /* QRCustomIntegTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1C52F20A33B9A002E76DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE1C53820A33B9A002E76DE /* QRCustomIntegUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE1C52A20A33B9A002E76DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE1C50F20A33B97002E76DE /* QRCustomInteg */;
+			targetProxy = EEE1C52920A33B9A002E76DE /* PBXContainerItemProxy */;
+		};
+		EEE1C53520A33B9A002E76DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE1C50F20A33B97002E76DE /* QRCustomInteg */;
+			targetProxy = EEE1C53420A33B9A002E76DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE1C51920A33B97002E76DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE1C51A20A33B97002E76DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE1C51E20A33B99002E76DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE1C51F20A33B99002E76DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE1C53A20A33B9A002E76DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEE1C53B20A33B9A002E76DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE1C53D20A33B9A002E76DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EA225864D794CDBFAA7E19 /* Pods-QRCustomInteg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomInteg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomInteg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE1C53E20A33B9A002E76DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED79D7E6B7A3E7B0C7A6C392 /* Pods-QRCustomInteg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomInteg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomInteg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE1C54020A33B9A002E76DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomIntegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomIntegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCustomInteg.app/QRCustomInteg";
+			};
+			name = Debug;
+		};
+		EEE1C54120A33B9A002E76DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomIntegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomIntegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCustomInteg.app/QRCustomInteg";
+			};
+			name = Release;
+		};
+		EEE1C54320A33B9A002E76DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomIntegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomIntegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRCustomInteg;
+			};
+			name = Debug;
+		};
+		EEE1C54420A33B9A002E76DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39B3LDUZCB;
+				INFOPLIST_FILE = QRCustomIntegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiPing.QRCustomIntegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRCustomInteg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE1C50B20A33B97002E76DE /* Build configuration list for PBXProject "QRCustomInteg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE1C53A20A33B9A002E76DE /* Debug */,
+				EEE1C53B20A33B9A002E76DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE1C53C20A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomInteg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE1C53D20A33B9A002E76DE /* Debug */,
+				EEE1C53E20A33B9A002E76DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE1C53F20A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomIntegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE1C54020A33B9A002E76DE /* Debug */,
+				EEE1C54120A33B9A002E76DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE1C54220A33B9A002E76DE /* Build configuration list for PBXNativeTarget "QRCustomIntegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE1C54320A33B9A002E76DE /* Debug */,
+				EEE1C54420A33B9A002E76DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE1C50820A33B97002E76DE /* Project object */;
+}
