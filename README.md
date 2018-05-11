@@ -1,4 +1,4 @@
 # QRCodeDemo
-#效果图
+效果图
  
-![](https://github.com/FishWatering/QRCodeDemo/raw/msater/QRCode.gif )  
+![](https://github.com/FishWatering/QRCodeDemo/raw/msater/QRCodeDemo/QRCode.gif )  
