@@ -75,7 +75,6 @@ static const CGFloat kMargin = 30;
 
 -(void)setupTipTitleView
 {
-    NSLog(@"scan_w_h == %f,,,kScreen_Height =  %f", scan_w_h, kScreen_Height);
     //1.补充遮罩
     UIView *bottomMask = [[UIView alloc]initWithFrame:CGRectMake(0, 2*kBorderW + scan_w_h, kScreen_Width, kScreen_Height - (2*kBorderW+ scan_w_h))];
     bottomMask.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.7];
